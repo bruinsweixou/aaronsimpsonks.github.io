@@ -1,11 +1,23 @@
 html, body {
     line-height: 1.5;
     font-size: small;
+    color: #333;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+h1, h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+}
+
 a, a:visited {
-    color: #000099;
+    text-decoration: none;
+    color: #0aa9bf;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 ul {
@@ -14,7 +26,7 @@ ul {
 }
 
 #column-1 {
-    width: 50%;
+    width: 35%;
 }
 
 @media only screen and (max-width: 600px) {
