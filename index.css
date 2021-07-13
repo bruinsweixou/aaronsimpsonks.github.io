@@ -11,8 +11,12 @@ h1, h2 {
     padding-bottom: 5px;
 }
 
+h1 > a {
+    text-decoration: none;
+}
+
 a, a:visited {
-    color: #337ab7;
+    color: #3D9BB8;
 }
 
 a:hover {
@@ -22,6 +26,14 @@ a:hover {
 ul {
     padding-left: 20px;
     list-style: square;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.center {
+    text-align: center;
 }
 
 #column-1 {
