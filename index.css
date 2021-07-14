@@ -5,10 +5,13 @@ html, body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-h1, h2 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    border-bottom: 1px solid #eee;
+h1, h2, h3 {
+    font-weight: 500;
     padding-bottom: 5px;
+}
+
+h1, h2 {
+    border-bottom: 1px solid #eee;
 }
 
 h1 > a {
@@ -16,10 +19,12 @@ h1 > a {
 }
 
 a, a:visited {
-    color: #000099;
+    color: #337ab7;
+    text-decoration: none;
 }
 
 a:hover {
+    color: #23527c;
     text-decoration: underline;
 }
 
