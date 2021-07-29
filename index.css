@@ -1,53 +1,38 @@
-html, body {
-    line-height: 1.5;
-    font-size: small;
-    color: #333;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-h1, h2, h3 {
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 500;
-}
-
-h1, h2 {
-    border-bottom: 1px solid #eee;
-}
-
-h1 > a {
-    text-decoration: none;
-}
-
 a, a:visited {
-    color: #00AACC;
-    text-decoration: underline;
+    text-decoration: none;
+    color: #2048fc;
 }
 
 a:hover {
-    text-decoration: none;
+    text-decoration: underline;
+    color: #1737c4;
+}
+
+body {
+    line-height: 1.4;
+    font-size: 0.85em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 15px;
+}
+
+p {
+    margin: 0;
+    margin-bottom: 15px;
 }
 
 ul {
-    padding-left: 20px;
-    list-style: square;
+    margin: 0;
 }
 
-.italic {
-    font-style: italic;
+.container {
+    display: flex;
 }
 
-.center {
-    text-align: center;
+.column-1, .column-2 {
+    width: 50%;
 }
 
-#column-1 {
-    max-width: 800px;
-    width: 100%;
-    margin: 0 auto;
-}
-
-@media only screen and (max-width: 600px) {
-    #column-1 {
-        width: 100%;
-    }
+.navigation {
+    list-style: none;
+    float: right;
 }
