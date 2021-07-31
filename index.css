@@ -7,15 +7,12 @@ a:hover {
     color: #054385;
 }
 
-img {
-    width: 25%;
-}
-
 p {
     margin: 10px 0;
 }
 
 img {
+    width: 35%;
     margin: 10px 0;
     border: 1px solid #999;
     padding: 3px;
