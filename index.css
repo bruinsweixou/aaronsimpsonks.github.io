@@ -16,10 +16,12 @@ p {
 }
 
 .container {
+    padding: 10px;
+    box-sizing: border-box;
     max-width: 800px;
     width: 100%;
     font-size: 0.85em;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin: 15px auto;
+    margin: 10px auto;
     line-height: 1.3;
 }
