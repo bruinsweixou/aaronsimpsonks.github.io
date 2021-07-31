@@ -12,7 +12,7 @@ p {
 }
 
 img {
-    width: 35%;
+    width: 30%;
     margin: 10px 0;
     border: 1px solid #999;
     padding: 3px;
@@ -32,8 +32,7 @@ h2 {
     box-sizing: border-box;
     max-width: 800px;
     width: 100%;
-    font-size: 0.85em;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
     margin: 10px auto;
     line-height: 1.3;
 }
