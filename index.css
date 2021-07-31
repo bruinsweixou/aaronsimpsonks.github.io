@@ -1,38 +1,25 @@
 a, a:visited {
-    text-decoration: none;
-    color: #2048fc;
+    color: #0864c7;
 }
 
 a:hover {
-    text-decoration: underline;
-    color: #1737c4;
+    text-decoration: none;
+    color: #054385;
 }
 
-body {
-    line-height: 1.4;
-    font-size: 0.85em;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    margin: 15px;
+img {
+    width: 25%;
 }
 
 p {
-    margin: 0;
-    margin-bottom: 15px;
-}
-
-ul {
-    margin: 0;
+    margin: 10px 0;
 }
 
 .container {
-    display: flex;
-}
-
-.column-1, .column-2 {
-    width: 50%;
-}
-
-.navigation {
-    list-style: none;
-    float: right;
+    max-width: 800px;
+    width: 100%;
+    font-size: 0.85em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 15px auto;
+    line-height: 1.3;
 }
