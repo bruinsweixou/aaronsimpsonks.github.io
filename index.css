@@ -26,6 +26,11 @@ h2 {
     font-size: 1.5em;
 }
 
+ul {
+    padding-left: 10px;
+    list-style: circle;
+}
+
 .container {
     color: #333;
     padding: 10px;
