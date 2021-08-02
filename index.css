@@ -26,9 +26,17 @@ h2 {
     font-size: 1.5em;
 }
 
+h3 {
+    font-size: 1.3em;
+}
+
 ul {
     padding-left: 20px;
     list-style: circle;
+}
+
+.italic {
+    font-style: italic;
 }
 
 .container {
