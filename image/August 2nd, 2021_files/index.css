@@ -35,7 +35,7 @@ ul {
     list-style: circle;
 }
 
-.italic, i, em {
+.italic, i {
     font-style: italic;
 }
 
