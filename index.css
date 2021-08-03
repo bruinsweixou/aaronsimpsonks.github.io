@@ -42,10 +42,10 @@ ul {
     color: #333;
     padding: 10px;
     box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     max-width: 800px;
     width: 100%;
-    font-size: 0.85em;
+    font-size: 0.95em;
     margin: 10px auto;
     line-height: 1.4;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
