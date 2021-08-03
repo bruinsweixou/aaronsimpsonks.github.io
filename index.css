@@ -1,10 +1,9 @@
 a, a:visited {
-    color: #0d0eca;
+    color: #121BFA;
 }
 
 a:hover {
     text-decoration: none;
-    color: #0679fc;
 }
 
 p {
@@ -45,7 +44,8 @@ ul {
     box-sizing: border-box;
     max-width: 800px;
     width: 100%;
-    font-size: 1em;
+    font-size: 0.85em;
     margin: 10px auto;
-    line-height: 1.3;
+    line-height: 1.4;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
